@@ -135,6 +135,16 @@ p {
     background-color: var(--navy-blue);
     padding: 188px 0;
 }
+.overlay {
+    min-height: 600px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/hero-section/people-office-compessed.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 .hero_title {
     display: block;
     margin: 0 auto 48px auto;
