@@ -298,6 +298,7 @@ p {
     }
     .customers-section-item {
         width: calc((100%-120px) /6);
+        height: 88px;
     }
     .customers-section-item-icon {
         width: 100%;
