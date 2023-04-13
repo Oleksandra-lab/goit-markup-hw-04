@@ -278,6 +278,24 @@ p {
         line-height: 1.5;
         letter-spacing: 0.02em;
     }
+    .social-network-list{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+    }
+    .social-network-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .social-network-item {
+        width: 40px;
+        height: 40px;
+    }
     /* Customers section*/
     .customers-section {
         padding: 120px 0;
@@ -300,7 +318,7 @@ p {
         width: calc((100%-120px) /6);
         height: 88px;
     }
-    .customers-section-item-icon {
+    .customers-section-item-link {
         width: 100%;
         height: 100%;
         display: flex;
