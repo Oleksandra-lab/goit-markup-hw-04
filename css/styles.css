@@ -296,8 +296,8 @@ p {
         background-color: var(--iris);
         border-radius: 50%;
     }
-    .social-network-item :hover,
-    .social-network-item :focus {
+    .social-network-link :hover,
+    .social-network-link :focus {
         background-color: var(--green);
     }
 
@@ -398,8 +398,8 @@ p {
     .options_section_link {
         display: block;
     }
-    .options_section_link :hover,
-    .options_section_link :focus {
+    .options_section_item :hover,
+    .options_section_item :focus {
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     }
     
