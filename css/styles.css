@@ -296,8 +296,8 @@ p {
         background-color: var(--iris);
         border-radius: 50%;
     }
-    .social-network-link :hover,
-    .social-network-link :focus {
+    .social-network-item :hover,
+    .social-network-item :focus {
         background-color: var(--green);
     }
 
@@ -329,6 +329,7 @@ p {
     .customers-section-item {
         width: calc((100%-120px) /6);
         height: 88px;
+        color: #afb1b8;
     }
     .customers-section-item-link {
         width: 100%;
@@ -340,8 +341,8 @@ p {
         border-radius: 4px;  
     
     }
-    .customers-section-item-link :hover,
-    .customers-section-item-link :focus {
+    .customers-section-item :hover,
+    .customers-section-item :focus {
         border-color: var(--ocean);
         color: var(--ocean);
     }
