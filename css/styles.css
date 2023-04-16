@@ -302,7 +302,7 @@ p {
     }
     .social-network-link :hover,
     .social-network-link :focus {
-        background-color: var(--green);
+        background-color: #404bbf;
     }
 
     
@@ -338,8 +338,8 @@ p {
         display: flex;
         align-items: center;
         justify-content: center;
-        border: 1px solid ;
-        border-radius: 4px var(--light-slate); 
+        border: 1px solid var(--light-slate);
+        border-radius: 4px ; 
         color: var(--light-slate); 
     
     }
