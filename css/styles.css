@@ -286,6 +286,10 @@ p {
         justify-content: center;
         gap: 24px;
     }
+    .social-network-item {
+        width: 40px;
+        height: 40px;
+    }
     .social-network-link {
         display: flex;
         align-items: center;
@@ -296,15 +300,12 @@ p {
         background-color: var(--iris);
         border-radius: 50%;
     }
-    .social-network-item :hover,
-    .social-network-item :focus {
+    .social-network-link :hover,
+    .social-network-link :focus {
         background-color: var(--green);
     }
 
-    .social-network-item {
-        width: 40px;
-        height: 40px;
-    }
+    
     .social-network-link-icon {
         fill: var(--cloud);
     }
@@ -338,7 +339,8 @@ p {
         align-items: center;
         justify-content: center;
         border: 1px solid #8e8f99;
-        border-radius: 4px;  
+        border-radius: 4px; 
+        color: #afb1b8; 
     
     }
     .customers-section-item :hover,
@@ -433,10 +435,11 @@ p {
     .footer-content-container {
         display: flex;
         align-items: baseline;
+        gap: 120px;
        
     }
     .footer-content {
-         margin-right: 120px;
+        
     }
     
     
