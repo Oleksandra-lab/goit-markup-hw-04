@@ -180,20 +180,20 @@ p {
     .hero .hero_btn:focus {
        background-color:  var(--ocean);  
     }
-    /* Qualities section styes */
-    .qualities_section {
+    /* Benefits section styes */
+    .benefits_section {
         padding: 120px 0;
     }
-    .qualities_section-list {
+    .benefits_section-list {
         display: flex;
         gap: 24px;
         
     }
-    .qualities_section_item {
+    .benefits_section_item {
         width: calc((100% - 72px) / 4);
         
     }
-    .qualities_section_item_img {
+    .benefits_section_item_img {
         display: flex;
         margin-bottom: 8px;
         align-items: center;
@@ -203,7 +203,7 @@ p {
         background-color: var(--cloud);
 
     }
-    .qualities_section_item_title {
+    .benefits_section_item_title {
         margin-bottom: 8px;
         font-weight: 500;
         font-size: 20px;
@@ -211,7 +211,7 @@ p {
         letter-spacing: 0.02em;
         color: var(--navy-blue) ;
     }
-    .qualities_section_item_txt {
+    .benefits_section_item_txt {
         line-height: 1.5;
         letter-spacing: 0.02em;
     }
