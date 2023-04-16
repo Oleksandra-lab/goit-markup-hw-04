@@ -338,9 +338,9 @@ p {
         display: flex;
         align-items: center;
         justify-content: center;
-        border: 1px solid #8e8f99;
-        border-radius: 4px; 
-        color: #afb1b8; 
+        border: 1px solid ;
+        border-radius: 4px var(--light-slate); 
+        color: var(--light-slate); 
     
     }
     .customers-section-item :hover,
