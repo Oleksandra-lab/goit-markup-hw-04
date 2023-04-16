@@ -300,8 +300,8 @@ p {
         background-color: var(--iris);
         border-radius: 50%;
     }
-    .social-network-link :hover,
-    .social-network-link :focus {
+    .social-network-link:hover,
+    .social-network-link:focus {
         background-color: #404bbf;
     }
 
